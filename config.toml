@@ -1,0 +1,19 @@
+baseURL = "http://derekensign.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "personal-web"
+
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
