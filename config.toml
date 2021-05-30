@@ -1,4 +1,4 @@
-baseURL = "http://derekensign.org/"
+baseURL = "http://derekensign.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "personal-web"
