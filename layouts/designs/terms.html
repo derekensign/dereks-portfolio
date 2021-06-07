@@ -4,7 +4,7 @@
   <ul id="all-tags">
     {{ range $name, $taxonomy := .Site.Taxonomies.designs }}
         {{ with $.Site.GetPage (printf "/designs/%s" $name) }}
-            <li><a href="{{ .Permalink }}">{{ $name | humanize }}</a></li>
+            <li><a href="{{ .RelPermalink }}">{{ $name | humanize }}</a></li>
         {{ end }}
     {{ end }}
 </ul>

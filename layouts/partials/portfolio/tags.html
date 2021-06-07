@@ -5,7 +5,7 @@
       <span>
         {{- with $.Site.GetPage "taxonomyTerm" (printf "designs/%s" ( urlize .)) -}}
           {{- if $i -}}<span>- </span>{{ end }}
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
       </span>
     {{ end }}
@@ -19,7 +19,7 @@
       {{ range $i, $e := .Params.techs }}
         {{- with $.Site.GetPage "taxonomyTerm" (printf "techs/%s" ( urlize .)) -}}
           {{- if $i -}}<span>- </span>{{ end }}
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
       {{ end }}
     </span>
