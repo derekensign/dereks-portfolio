@@ -1,6 +1,6 @@
 baseURL = "https://derekensign.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Derek's Portfolio"
 theme = "personal-web"
 
 
@@ -17,3 +17,14 @@ theme = "personal-web"
   title = "Portfolio"
   url = "/portfolio/"
   weight = -110
+
+[params.social]
+  github = "https://github.com/derekensign"
+  linkedin = "https://www.linkedin.com/in/derekensign"
+  twitter = "https://twitter.com/derekensign"
+  instagram = "https://www.instagram.com/degz"
+
+[params.contact]
+  email = "derekensign@gmail.com"
+  text= "Shoot me an e-mail!" # text of the contact link in the sidebar. If email params.contact.email is defined
+
