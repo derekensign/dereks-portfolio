@@ -3,7 +3,7 @@ title: NASA Astronomy Picture of the Day Gallery
 description: This is the description of our sample project
 work: [design, development]
 techs: [javascript, D3]
-thumbnail: NASA/M66.jpeg
+thumbnail: nasa/M66.jpeg
 projectUrl: https://nasa-front-end-21.herokuapp.com/
 
 ---
