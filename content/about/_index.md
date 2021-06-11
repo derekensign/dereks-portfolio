@@ -1,7 +1,7 @@
 ---
 title: ABOUT
 description: Hey, I'm Derek Ensign
-images: ["/about/atxfc.png"]
+images: ["/images/atxfc.png"]
 ---
 
 Connector and people person. Explorer and engineer. I am eager to grow by building and crafting software.  
