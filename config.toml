@@ -2,6 +2,7 @@ baseURL = "https://derekensign.com/"
 languageCode = "en-us"
 title = "Derek's Portfolio"
 theme = "personal-web"
+copyright="© Derek Ensign"
 
 
 [[menu.main]]
@@ -18,6 +19,11 @@ theme = "personal-web"
   url = "/portfolio/"
   weight = -110
 
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
 [params.social]
   github = "https://github.com/derekensign"
   linkedin = "https://www.linkedin.com/in/derekensign"
@@ -27,4 +33,7 @@ theme = "personal-web"
 [params.contact]
   email = "derekensign@gmail.com"
   text= "Shoot me an e-mail!" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+[params.main]
+  latestPublishHeader = "My Latest Project"
 
