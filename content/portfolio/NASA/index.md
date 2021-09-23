@@ -1,6 +1,7 @@
 ---
 title: NASA Astronomy Picture of the Day Gallery
 description: This is the description of our sample project
+date: "2021-05-22T19:47:09+02:00"
 work: [javascript, express, react]
 techs: [javascript, express, react]
 thumbnail: nasa/M66.jpeg

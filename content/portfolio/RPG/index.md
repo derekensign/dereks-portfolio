@@ -4,6 +4,7 @@ description: This is the description of our sample project
 work: [javascript]
 techs: [javascript]
 thumbnail: rpg/rpg.png
+date: "2021-03-22T19:47:09+02:00"
 projectUrl: https://derekensign.github.io/RPG/
 
 ---

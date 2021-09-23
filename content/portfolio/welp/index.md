@@ -3,6 +3,7 @@ title: Welp!
 description: This is the description of our sample project
 work: [javascript, express]
 techs: [javascript, express]
+date: "2021-05-02T19:47:09+02:00"
 thumbnail: welp/welp.png
 projectUrl: https://welp-2021-front-end.herokuapp.com/
 
